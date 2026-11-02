@@ -1,6 +1,6 @@
-# Facial Expression Recognition
+# NIT Research-Inspired Facial Expression Demo
 
-A portfolio project that detects visible faces in an uploaded image and estimates an expression label with the [`fer`](https://pypi.org/project/fer/) package's pre-trained CNN. The UI is built with Flask; face boxes and predicted labels are drawn with OpenCV.
+This educational demo was built after my NIT Rourkela work on thermal facial-expression research to practise the application side of face detection and expression classification. **It does not process thermal images and is not a copy of the NIT research model or code.** It analyzes ordinary photos or a single captured webcam frame using the [`fer`](https://pypi.org/project/fer/) package's pretrained CNN. Flask provides the interface; OpenCV draws face boxes and predicted labels.
 
 > **Scope and limitations:** This is an experimental educational project, not an emotion-reading system. A model output is not a fact about a person's feelings. Do not use it for healthcare, hiring, education, law enforcement, identity, safety, or other high-impact decisions.
 
